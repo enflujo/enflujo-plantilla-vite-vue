@@ -1,5 +1,4 @@
 <script setup>
-// https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Hola from './componentes/Hola.vue';
 </script>
 
@@ -7,4 +6,4 @@ import Hola from './componentes/Hola.vue';
   <Hola />
 </template>
 
-<style></style>
+<style lang="scss" scoped></style>
