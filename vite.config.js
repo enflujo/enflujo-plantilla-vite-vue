@@ -6,6 +6,12 @@ export default defineConfig({
   plugins: [vue()],
   clearScreen: false,
   build: {
-    outDir: './publico',
+    outDir: 'publico',
+    assetsDir: 'recursos',
+    sourcemap: true,
+  },
+  publicDir: 'estaticos',
+  server: {
+    port: 3000,
   },
 });
