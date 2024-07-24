@@ -7,11 +7,8 @@ export default defineConfig({
   clearScreen: false,
   build: {
     outDir: 'publico',
-    assetsDir: 'recursos',
+    assetsDir: 'estaticos',
     sourcemap: true,
   },
   publicDir: 'estaticos',
-  server: {
-    port: 3000,
-  },
 });

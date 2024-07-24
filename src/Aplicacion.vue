@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Hola from './componentes/Hola.vue';
 </script>
 
@@ -6,4 +6,8 @@ import Hola from './componentes/Hola.vue';
   <Hola />
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#main {
+  background-color: yellow;
+}
+</style>
